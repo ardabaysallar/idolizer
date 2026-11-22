@@ -79,18 +79,18 @@ if col_1.button('Explore Yourself'):
         role = label_.index[0]
         if role == "DATA ANALYST":
             # displaying the image on streamlit app
-            image1 = Image.open('atilla.jpeg')
-            col_1.image(image1, caption='Bir Atilla YARDIMCI olma yolundasınız.🚀')
+            image1 = Image.open('data_analyst.jpeg')
+            col_1.image(image1, caption='Bir Data Analyst olma yolundasınız.🚀')
 
         elif role == "DATA SCIENTIST":
             # displaying the image on streamlit app
-            image2 = Image.open('vahit.jpeg')
-            col_1.image(image2, caption='Bir Vahit KESKİN olma yolundasınız.🎤 ')
+            image2 = Image.open('data_scientist.jpeg')
+            col_1.image(image2, caption='Bir Data Scientist olma yolundasınız.🎤 ')
 
         elif role == "DATA ENGINEER":
             # displaying the image on streamlit app
-            image3 = Image.open('erkan.jpeg')
-            col_1.image(image3, caption='👀Bir Erkan ŞİRİN olma yolundasınız.👀')
+            image3 = Image.open('data_engineer.jpeg')
+            col_1.image(image3, caption='👀Bir Data Engineer olma yolundasınız.👀')
 
 # user-name & password part
 
